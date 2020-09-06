@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: npm install
+    command: npm start
+
+vscode:
+  extensions:
+    - mblode.pretty-formatter@0.2.1:zRQLKZopqBmlD8T9DoUpsQ==
