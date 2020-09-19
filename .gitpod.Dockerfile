@@ -17,3 +17,6 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2
     && sudo ./aws/install \
     && rm awscliv2.zip \
     && rm -rf ./aws
+
+RUN aws --version \
+    && sam --version

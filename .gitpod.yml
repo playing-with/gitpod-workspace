@@ -3,7 +3,7 @@ image:
 
 tasks:
   - init: npm install
-    command: aws configure
+    command: echo "aws configure"
 
 vscode:
   extensions:
